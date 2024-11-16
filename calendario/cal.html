@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <script src="cal.js"></script>
+
+    <div class="carta">
+        <label>
+            Mes
+            <select id="listaMes">
+                <option value="0">Enero</option>
+                <option value="1">Febrero</option>
+                <option value="2">Marzo</option>
+                <option value="3">Abril</option>
+                <option value="4">Mayo</opion>
+                <option value="5">Junio</option>
+                <option value="6">Julio</option>
+                <option value="7">Agostio</option>
+                <option value="8">Septiembre</option>
+                <option value="9">Octubre</option>
+                <option value="10">Noviembre</option>
+                <option value="11">Diciembre</option>
+            </select>
+        </label>
+        <label>
+            Año:
+            <input type="number" id="numAño" value="2000">
+        </label>
+        <label>
+            <input type="button" value="Mostrar" onclick="mostrar()">
+        </label>
+
+        <p>Calendario</p>
+        <div class="calendario">
+            <table id="calen">
+                <tr class="dias">
+                    <td>Domingo</td>
+                    <td>Lunes</td>
+                    <td>Martes</td>
+                    <td>Miercoles</td>
+                    <td>Jueves</td>
+                    <td>Viernes</td>
+                    <td>Sabado</td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+</body>
+</html>
